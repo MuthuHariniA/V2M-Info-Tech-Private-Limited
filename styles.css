@@ -13,8 +13,8 @@ header {
 }
 
 .logo-container {
-    width: 150px; /* Increased size to make the logo more visible */
-    height: 150px; /* Adjusted size to be larger */
+    width: 100px; /* Increased size to make the logo more visible */
+    height: 100px; /* Adjusted size to be larger */
     border-radius: 50%; /* Round logo space */
     background-color: white;
     margin: 0 auto;
