@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6a0dad; /* Purple background */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Round logo space */
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#file-upload {
+    margin-right: 10px;
+}
+
+.payment-button {
+    background-color: #ffcc00; /* Bright yellow button */
+    color: #6a0dad;  /* Purple text to match theme */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.payment-button:hover {
+    background-color: #ffd633; /* Lighter yellow on hover */
+    color: #4b0082; /* Darker purple on hover */
+}
+
+#results {
+    margin-top: 20px;
+}
+
+#results table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#results th, #results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#results th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+#download-btn {
+    background-color: #ffcc00; /* Same yellow button style */
+    color: #6a0dad;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#download-btn:hover {
+    background-color: #ffd633;
+    color: #4b0082;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #results table {
+        font-size: 0.8em;
+    }
+
+    .logo-container {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+}
