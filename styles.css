@@ -25,12 +25,9 @@ header {
 }
 
 .logo {
-    border-radius: 50%; /* Makes the logo round */
-    background-color: white; /* Sets a white background */
-    width: 100px; /* Adjust the size */
-    height: 100px; /* Adjust the size to match the width */
-    object-fit: cover; /* Ensures the image fits well within the circular frame */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+
+    width: 90px; /* Adjust the size */
+    height: 90px; /* Adjust the size to match the width */
 }
 
 h1 {
