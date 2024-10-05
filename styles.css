@@ -13,8 +13,8 @@ header {
 }
 
 .logo-container {
-    width: 100px;
-    height: 100px;
+    width: 150px; /* Increased size to make the logo more visible */
+    height: 150px; /* Adjusted size to be larger */
     border-radius: 50%; /* Round logo space */
     background-color: white;
     margin: 0 auto;
@@ -25,10 +25,11 @@ header {
 }
 
 .logo {
-
-    width: 90px; /* Adjust the size */
-    height: 90px; /* Adjust the size to match the width */
+    width: 100%;  /* Ensures the image takes up the entire container width */
+    height: 100%; /* Ensures the image takes up the entire container height */
+    object-fit: cover; /* Ensures the image scales nicely to fit in the round space */
 }
+
 
 h1 {
     margin: 10px 0;
